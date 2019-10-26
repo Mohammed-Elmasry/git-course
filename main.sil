@@ -1,0 +1,13 @@
+#!/usr/bin/silicate
+
+/**
+    this is defintiion of the main access point to a silicate program
+*/
+
+@imports
+    import "./index.sil"
+
+define Main {
+    Superhero Magento = new Superhero();
+    print(Magento);
+}
