@@ -3,4 +3,9 @@
 
 define class TemplateEngine {
     view.render("homepage");
+
+
+    method create_view(String name){
+        view.create(name);
+    }
 }
