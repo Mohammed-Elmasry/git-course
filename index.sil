@@ -24,4 +24,8 @@ define class Superhero: Metahuman {
     method set_name(String name){
         self.name = name;
     }
+
+    method fly(){
+        print("I am flying");
+    }
 }
