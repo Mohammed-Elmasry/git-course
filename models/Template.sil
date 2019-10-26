@@ -1,0 +1,6 @@
+!#/usr/bin/silicate
+
+
+define class TemplateEngine {
+    view.render("homepage");
+}
