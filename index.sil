@@ -1,7 +1,11 @@
 #!/usr/bin/silicate
 
 
-define class Superhero {
+define class Metahuman {
+    pass;
+}
+
+define class Superhero: Metahuman {
     $private String name;
     $private Array powers;
 
