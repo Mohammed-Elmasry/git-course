@@ -1,0 +1,23 @@
+#!/usr/bin/silicate
+
+
+define class Superhero {
+    $private String name;
+    $private Array powers;
+
+    method get_powers(){
+        return self.powers;
+    }
+
+    method set_powers(Array powers = []){
+        self.powers = powers;
+    }
+
+    method get_name(){
+        return self.name;
+    }
+
+    method set_name(String name){
+        self.name = name;
+    }
+}
