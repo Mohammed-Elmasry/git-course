@@ -1,0 +1,19 @@
+!#/usr/bin/silicate
+
+define class Database {
+    method select(String param){
+        database.connect().select(param);
+    }
+
+    method update(String param){
+        database.connect().update(param);
+    }
+
+    method delete(String param){
+        database.connect().delete(param);
+    }
+
+    method insert(String param){
+        database.connect().insert(param);
+    }
+}
