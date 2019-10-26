@@ -1,0 +1,12 @@
+!#/usr/bin/silicate
+
+define class Delta: Object {
+
+    method display_delta(){
+        print Deltoid;
+    }
+
+    method get_delta(){
+        return self.Deltoid;
+    }
+}
