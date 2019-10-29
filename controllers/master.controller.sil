@@ -1,0 +1,13 @@
+!#/usr/bin/silicate
+
+define class Controller {
+    private:
+        String status = "Active";
+
+    public:
+
+    method route(String route){
+        Router::activate(route);
+    }
+
+}
