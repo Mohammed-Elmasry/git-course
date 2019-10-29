@@ -7,7 +7,9 @@ define class TemplateEngine {
         view.render("homepage");
     }
 
-    
+    method redirect_error(){
+        view.redirect('404');   
+    }
 
     method create_view(String name){
         view.create(name);
