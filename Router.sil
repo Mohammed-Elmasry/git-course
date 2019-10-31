@@ -1,0 +1,19 @@
+!#/usr/bin/silicate
+
+define class Router{
+    private:
+        String routes[] = new Array();
+
+    public:
+        method get(String route, Controller method){
+            this.register(route, method);            
+        }
+
+        method post(String route, Controller method){
+            this.register(route, method);
+        }
+
+        method register(String route, Controller method){
+            this.routes.append(route: method);
+        }
+}
