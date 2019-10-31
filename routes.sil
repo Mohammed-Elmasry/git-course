@@ -1,0 +1,7 @@
+!#/usr/bin/silicate
+
+define class Routes {
+    definition space :
+        Route::get ("/", "HomepageController@index");
+        Route::post("/", "HompageController@store");
+}
